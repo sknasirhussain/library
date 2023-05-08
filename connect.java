@@ -17,7 +17,7 @@ public class Main {
 
         // Find the text field and copy the data from the notepad file
         WebElement textField = driver.findElement(By.id("my-text-field"));
-        try (BufferedReader br = new BufferedReader(new FileReader("project.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Project text.txt"))) {
             String data = br.readLine();
             textField.sendKeys(data);
         } catch (IOException e) {
