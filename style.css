@@ -1,0 +1,69 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background: #eebb7e;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+}
+
+.bar{
+padding-top: 5px;
+font-size: 50px;
+}
+
+#dialog-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 9999;
+  }
+
+  #book-list-wrapper {
+   
+    overflow-y: auto;
+    position: relative;
+  
+  }
+
+  nav{ 
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: coral;
+
+  }
+  
+#search-input{
+  width: 550px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 5px;
+}
+            
+#searh-text{
+  font-size: 22px;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+#search-btn{
+  font-size: 19px;
+  height: 30px;
+  width: 80px;
+
+}
