@@ -9,10 +9,10 @@ print("Trying to connect to database...")
 try: 
 # Set up MySQL database connection
         mydb = mysql.connector.connect(
-        host = "localhost",
-        user = "root",
+        host = "",
+        user = "",
         password = "",
-        database = "library"
+        database = ""
         )
         mycursor = mydb.cursor()
         print("Database connected!")
